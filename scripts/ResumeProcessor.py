@@ -2,8 +2,8 @@ import json
 import os.path
 import pathlib
 
-from .parsers import ParseJobDesc, ParseResume
-from .ReadPdf import read_single_pdf
+from scripts.parsers import ParseJobDesc, ParseResume
+from scripts.ReadPdf import read_single_pdf
 
 READ_RESUME_FROM = "Data/Resumes/"
 SAVE_DIRECTORY = "Data/Processed/Resumes"
